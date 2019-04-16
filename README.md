@@ -1,7 +1,8 @@
 # Revit_IFC_Material
-This program is done to categorize imported IFC materials in colorkeys and adjust them using Excel tabel
+The problem when importing IFC projects to revit is that it is not possible to change their material because each geometry of the imported family will have his own material in the material library. This will result hundrets of materials in the material library which have the same texture and the same color key.
+This program is done to categorize imported IFC materials in colorkeys and adjust them using Excel tabel. It supposes to help controling the IFC imported project's materials, their appearances and names based on an excel sheet conrolled by the user.
 
-******************************************Coloring Excel Script*******************************************
+******************************************Coloring Excel Script**************************************
 
 This script is responsible for picking the coplor keys from the imported IFC object's materials and add them to a saved excel file.
 As a resusult the colums 2, 3, 4 will be colored with an RGB color value added to the cells.
